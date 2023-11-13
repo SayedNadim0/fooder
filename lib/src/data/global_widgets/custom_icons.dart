@@ -1,0 +1,27 @@
+import 'package:flutter/material.dart';
+import 'package:flutter_svg/flutter_svg.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+
+class CustomIcons {
+
+  // Appbar Icons
+  dynamic appBarIcons = [
+    '<svg xmlns="http://www.w3.org/2000/svg" width="32.w" height="32.h" viewBox="0 0 32 32"> <rect id="Rectangle_26" data-name="Rectangle 26" width="32" height="32" rx="16" fill="#e84c4f"/> <g id="Bell_16px" data-name="Bell 16px" transform="translate(8 8)"> <path id="Ellipse_34" data-name="Ellipse 34" d="M11.5,5a5,5,0,0,0-10,0V9L0,9.5v2H13v-2L11.5,9Z" transform="translate(1.5 1)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/> <path id="Ellipse_36" data-name="Ellipse 36" d="M5,.5a2.292,2.292,0,0,1-2.5,2A2.292,2.292,0,0,1,0,.5,1.628,1.628,0,0,1,.079,0H4.921A1.628,1.628,0,0,1,5,.5Z" transform="translate(5.5 12.5)" fill="none" stroke="#fff" stroke-width="1.5"/> </g> </svg>'
+  ];
+
+  dynamic itemListSvg = [
+    '<svg id="heart_favourite_like" data-name="heart favourite like" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"> <path id="XMLID_1114" data-name="XMLID 1114" d="M27.942,5a8.19,8.19,0,0,0-7.333-5,7.686,7.686,0,0,0-6.267,2.833A7.686,7.686,0,0,0,8.076,0,8.19,8.19,0,0,0,.742,5a8.6,8.6,0,0,0,1.633,9.4A144.1,144.1,0,0,0,13.442,25.633a1.382,1.382,0,0,0,1.8,0c.067-.033,5.2-4.7,11.067-11.233A8.479,8.479,0,0,0,27.942,5Zm-3.6,7.633c-4.333,4.833-8.267,8.633-9.967,10.2-1.7-1.6-5.633-5.367-9.967-10.233a6,6,0,0,1-1.2-6.567A5.583,5.583,0,0,1,8.109,2.6c3.967,0,4.867,2.967,4.967,3.333a1.285,1.285,0,0,0,1.267,1,1.391,1.391,0,0,0,1.3-1A4.791,4.791,0,0,1,20.609,2.6a5.6,5.6,0,0,1,4.9,3.433A5.97,5.97,0,0,1,24.342,12.633Zm-.333-3.867A1.16,1.16,0,0,1,22.909,10h-.067a1.168,1.168,0,0,1-1.167-1.1c-.133-1.9-1.367-2.2-1.6-2.233a1.184,1.184,0,0,1-1-1.3,1.217,1.217,0,0,1,1.333-1A4.469,4.469,0,0,1,24.009,8.767Zm-1.6,1.933a1.316,1.316,0,0,1,.4.933,1.21,1.21,0,0,1-.4.933A1.32,1.32,0,1,1,20.542,10.7a1.4,1.4,0,0,1,.933-.4A1.675,1.675,0,0,1,22.409,10.7Z" transform="translate(5.633 7)" fill="#e84c4f"/> </svg>',
+    '<svg id="Tag" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32"> <path id="Union" d="M2.667,16V2.667H16L30.667,18,18,30.667Z" fill="#e84c4f"/> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" width="39.495" height="22.828" viewBox="0 0 39.495 22.828"> <g id="trending-up" transform="translate(-0.252 -8.586)"> <path id="Vector" d="M36.667,0,20.833,15.833,12.5,7.5,0,20" transform="translate(1.667 10)" fill="none" stroke="#e84c4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> <path id="Vector-2" data-name="Vector" d="M0,0H10V10" transform="translate(28.333 10)" fill="none" stroke="#e84c4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </g> </svg>',
+    '<svg id="Dots_24px" data-name="Dots 24px" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40"> <circle id="Dot" cx="3.333" cy="3.333" r="3.333" transform="translate(9.167 9.167)" fill="#e84c4f"/> <ellipse id="Dot-2" data-name="Dot" cx="3.333" cy="3.333" rx="3.333" ry="3.333" transform="translate(9.167 24.167)" fill="#e84c4f"/> <ellipse id="Dot-3" data-name="Dot" cx="3.333" cy="3.333" rx="3.333" ry="3.333" transform="translate(24.167 9.167)" fill="#e84c4f"/> <circle id="Dot-4" data-name="Dot" cx="3.333" cy="3.333" r="3.333" transform="translate(24.167 24.167)" fill="#e84c4f"/> </svg>'
+  ];
+
+  dynamic foodDetailsSvg = [
+    '<svg id="Left_24px" data-name="Left 24px" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"> <path id="Line" d="M0,0,7-7,0-14" transform="translate(15 5) rotate(180)" fill="none" stroke="#e84c4f" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/> </svg>',
+    '<svg id="Pin" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"> <path id="Ellipse" d="M9.333,4.667c0,4-4.667,7.333-4.667,7.333S0,8.667,0,4.667a4.667,4.667,0,0,1,9.333,0Z" transform="translate(3.333 2)" fill="none" stroke="#eda345" stroke-width="1.5"/> <ellipse id="Ellipse_2" data-name="Ellipse 2" cx="2" cy="2" rx="2" ry="2" transform="translate(6 4.667)" fill="none" stroke="#eda345" stroke-width="1.5"/> </svg>',
+    '<svg id="Star_16px" data-name="Star 16px" xmlns="http://www.w3.org/2000/svg" width="16" height="16.659" viewBox="0 0 16 16.659"> <path id="Star" d="M7.789,2.115a.75.75,0,0,1,1.422,0l1.247,3.71a.75.75,0,0,0,.691.511l3.814.1a.75.75,0,0,1,.45,1.334l-3.089,2.489a.75.75,0,0,0-.251.788l1.094,3.875a.75.75,0,0,1-1.161.811L8.94,13.517a.75.75,0,0,0-.879,0L4.994,15.735a.75.75,0,0,1-1.161-.811l1.094-3.875a.75.75,0,0,0-.251-.788L1.587,7.772a.75.75,0,0,1,.45-1.334l3.814-.1a.75.75,0,0,0,.691-.511Z" transform="translate(-0.5)" fill="none" stroke="#eda345" stroke-width="1.5"/> </svg>',
+    '<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16"> <g id="Rectangle_56" data-name="Rectangle 56" fill="none" stroke="#eda345" stroke-width="1.4"> <rect width="16" height="16" rx="8" stroke="none"/> <rect x="0.7" y="0.7" width="14.6" height="14.6" rx="7.3" fill="none"/> </g> <g id="check" transform="translate(3 3)"> <path id="Vector" d="M6.667,0,2.083,4.583,0,2.5" transform="translate(1.667 2.5)" fill="none" stroke="#eda345" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.4"/> </g> </svg>',
+
+  ];
+
+}
